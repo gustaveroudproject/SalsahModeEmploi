@@ -7,21 +7,19 @@
 - [Premiers pas et configurations générales](#premiers)
 - [Recherche simple](#recherche-simple)
 - [Label (étiquette)](#label)
-- [Symboles logiques utilisés dans les requêtes](#symboles)
 - [Recherche avancée](#recherche-avancee)
-- [Lire, modifier et effacer une ressource et ses liens](#lire)
+- [Symboles logiques utilisés dans les requêtes](#symboles)
 - [Spécifier plusieurs conditions sur des propriétés](#conditions)
 - [Classe abstraite Publication](#publication)
 - [Dates dans les manuscrits](#dates)
 - [Liens et références bibliographiques dans le texte](#liens)
 - [Distinction entre auteur et personne](#distinction)
+- [Lire, modifier et effacer une ressource et ses liens](#lire)
 - [Saisie des données](#input)
     - [Saisie des lieux](#lieux)
     - [Saisie des pages du site ou textes critiques](#webpage)
 - [Problèmes](#problemes)
 - [Raccourcis clavier](#raccourci)
-
-
 
 
 
@@ -192,9 +190,13 @@ ex : web\_CRLR GR MS 1 G/2b \_\_\_ Cueilleurs de pommes à Monnéaz
 ex : web\_CRLR GR MS 2 F/4b \_\_\_ Catherine Colomb ou notre monde périssable sauvé par la
 poésie
 
-<<<<<<< HEAD
 ### Dossier génétique
-=======
+
+dossier\_*publication (titre, si pas livre titre du volume ou du périodique, date)*
+
+ex : dossier\_Cendre \_\_\_ Aujourd'hui \_\_\_ 1030-07-10
+
+
 ### Page scanée
 
 page\_*fonds*\_\_\_*cote\_\_\_nom de la page*\_\_\_*numéro progressif*
@@ -203,12 +205,6 @@ page\_*fonds*\_\_\_*cote\_\_\_nom de la page*\_\_\_*numéro progressif*
 
 bio\_*année.mois.jour*_*titre de l'événement* 
 (si periode, premierAnnée-DeuxiemeAnnée)
->>>>>>> 297ff09d1a229619f94f7f1c9e703b4fba640596
-
-dossier\_*publication (titre, si pas livre titre du volume ou du périodique, date)*
-
-ex : dossier\_Cendre \_\_\_ Aujourd'hui \_\_\_ 1030-07-10
- 
 
 
 ### Œuvre (littéraire, musique, art)
@@ -218,6 +214,74 @@ ex : dossier\_Cendre \_\_\_ Aujourd'hui \_\_\_ 1030-07-10
 ex : œuvre\_Clément Charles\_Pont sur l'Aubonne
 
 ### Photo
+
+
+
+<a style="color:lightgrey" href="#top">&#11025;</a> <a name="recherche-avancee">Recherche avancée</a>
+=================
+
+Ouvrir la fenêtre pour la recherche avancée avec l’icône loupe et plus.
+
+Sélectionner le vocabulaire à utiliser : ‘Œuvres complètes de Gustave
+Roud \[roud-oeuvres\]’.
+
+Choisir le type de ressource (livre, personne, document d’archive, etc.)
+et, pour chaque type de ressource, ses propriétés (pour un livre :
+l’auteur, le titre, la date de publication, etc. ; pour une personne :
+le prénom, le nom, la date de naissance, etc.).
+
+Filtre et modes d’affichage : régler selon besoins.
+
+Tous les champs sont optionnels.
+
+Dans l’affichage des résultats, après le colonnes *info*, *type* et
+*label*, il y aura une colonne pour chaque propriété spécifiée dans la
+requête (si des propriétés ont été spécifiées).
+
+**Exemple 1 : toutes les personnes.**
+
+Après avoir sélectionné le vocabulaire, choisir le type de ressource :
+Personne. Lancer la recherche, on obtiendra 91 résultats.
+
+**Exemple 2 : tous les article publiés dans une revue.**
+
+Après avoir sélectionné le vocabulaire, choisir le type de ressource :
+Article de périodique.
+
+Dans le champ de propriété, choisir Périodique ; comme symbole, choisir
+‘**=**’ ; ici on ne peut pas écrire librement, mais sélectionner à
+partir d’une liste de périodiques identifiés par leurs *labels* (d’où
+l’importance du label). Le *label* d’un périodique commence toujours par
+‘period\_’ donc il suffira d’écrire ça et la liste se déroule.
+Malheureusement, la liste n’est pas ordonnée, il faudra donc continuer à
+écrire pour voir moins d’options, par exemple ‘period\_La semaine de la
+femme’.
+
+Lancer la recherche, on obtiendra 11 résultats.
+
+**Exemple 3 : un document par sa cote.**
+
+Après avoir sélectionné le vocabulaire, choisir le type de ressource :
+Document d’archive. Dans le champ de propriété, choisir Cote du
+document ; comme symbole, choisir ‘**=**’ ; écrire la cote d’un
+document, par exemple ‘MS 2 C/8a’ (attention aux espaces!!!). Lancer la
+recherche, on obtiendra 1 résultat.
+
+La quatrième colonne des résultats donnera la cote, car on a spécifié
+cette propriété dans la requête.
+
+**Exemple 4 : les documents dont la cote commencent par ‘MS 2 C’.**
+
+Après avoir sélectionné le vocabulaire, choisir le type de ressource :
+Document d’archive. Dans le champ de propriété, choisir Cote du
+document ; comme symbole, choisir ‘⊂’ ; écrire le début de la cote
+souhaitée ‘MS 2 C’ (attention aux espaces!!!). Lancer la recherche, on
+obtiendra 27 résultats.
+
+La quatrième colonne des résultats donnera la cote, car on a spécifié
+cette propriété dans la requête.
+
+
 
 
 
@@ -297,124 +361,6 @@ résultats.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="recherche-avancee">Recherche avancée</a>
-=================
-
-Ouvrir la fenêtre pour la recherche avancée avec l’icône loupe et plus.
-
-Sélectionner le vocabulaire à utiliser : ‘Œuvres complètes de Gustave
-Roud \[roud-oeuvres\]’.
-
-Choisir le type de ressource (livre, personne, document d’archive, etc.)
-et, pour chaque type de ressource, ses propriétés (pour un livre :
-l’auteur, le titre, la date de publication, etc. ; pour une personne :
-le prénom, le nom, la date de naissance, etc.).
-
-Filtre et modes d’affichage : régler selon besoins.
-
-Tous les champs sont optionnels.
-
-Dans l’affichage des résultats, après le colonnes *info*, *type* et
-*label*, il y aura une colonne pour chaque propriété spécifiée dans la
-requête (si des propriétés ont été spécifiées).
-
-**Exemple 1 : toutes les personnes.**
-
-Après avoir sélectionné le vocabulaire, choisir le type de ressource :
-Personne. Lancer la recherche, on obtiendra 91 résultats.
-
-**Exemple 2 : tous les article publiés dans une revue.**
-
-Après avoir sélectionné le vocabulaire, choisir le type de ressource :
-Article de périodique.
-
-Dans le champ de propriété, choisir Périodique ; comme symbole, choisir
-‘**=**’ ; ici on ne peut pas écrire librement, mais sélectionner à
-partir d’une liste de périodiques identifiés par leurs *labels* (d’où
-l’importance du label). Le *label* d’un périodique commence toujours par
-‘period\_’ donc il suffira d’écrire ça et la liste se déroule.
-Malheureusement, la liste n’est pas ordonnée, il faudra donc continuer à
-écrire pour voir moins d’options, par exemple ‘period\_La semaine de la
-femme’.
-
-Lancer la recherche, on obtiendra 11 résultats.
-
-**Exemple 3 : un document par sa cote.**
-
-Après avoir sélectionné le vocabulaire, choisir le type de ressource :
-Document d’archive. Dans le champ de propriété, choisir Cote du
-document ; comme symbole, choisir ‘**=**’ ; écrire la cote d’un
-document, par exemple ‘MS 2 C/8a’ (attention aux espaces!!!). Lancer la
-recherche, on obtiendra 1 résultat.
-
-La quatrième colonne des résultats donnera la cote, car on a spécifié
-cette propriété dans la requête.
-
-**Exemple 4 : les documents dont la cote commencent par ‘MS 2 C’.**
-
-Après avoir sélectionné le vocabulaire, choisir le type de ressource :
-Document d’archive. Dans le champ de propriété, choisir Cote du
-document ; comme symbole, choisir ‘⊂’ ; écrire le début de la cote
-souhaitée ‘MS 2 C’ (attention aux espaces!!!). Lancer la recherche, on
-obtiendra 27 résultats.
-
-La quatrième colonne des résultats donnera la cote, car on a spécifié
-cette propriété dans la requête.
-
-
-
-
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="lire">Lire, modifier et effacer une ressource et ses liens</a>
-====================================================
-
-Lire
-----
-
-Une fois qu’une requête a été effectuée, cliquer dans la liste des
-résultats sur la ressource à afficher : une nouvelle fenêtre s’ouvre. Le
-petit graphe en haut donne une visualisation des liens entre les
-données. La première ligne contient un point d’interrogation pour
-[créer des liens](#liens) ; le type (ou classe) de la ressource ; une
-poubelle pour effacer la ressource entière. Les autres icônes ne seront
-pas utilisées. La deuxième ligne montre le label.
-
-La section Descriptive Metadata contient les données de cette ressource.
-
-En plus, le champ ‘a standoff lien vers’ liste les liens à des
-ressources qui existent dans des champs textes de la ressource présente
-(par exemple, dans la ressource ‘pers\_Chappaz Maurice’ il y apparaît la
-publication de la correspondance, car dans la notice – qui est un champ
-texte– il y a un lien à ça). Tous en bas de la fenêtre, dans la section
-‘Other objects referencing this object’ sont listées toutes les
-ressources qui ont des liens vers la ressource présente (**par exemple,
-pour une publication apparaissent ici les documents d’archive en
-liens**).
-
-Modifier
---------
-
-La modification des valeurs des propriétés d’une ressource qui existent
-déjà se fait directement dans la/les valeur(s) à modifier, et non pas
-pour la ressource entière.
-
-Cliquer sur le petit crayon à côté de la valeur à modifier, modifier, ne
-pas oublier de sauvegarder (cliquer sur l’icône floppy disk) avant de
-fermer la fenêtre.
-
-Se souvenir de mettre à jour le label, si les valeurs changées sont les
-mêmes qui figurent dans le label (par exemple la date).
-
-Effacer
--------
-
-Pour effacer une ressource entière, utiliser l’icône de la poubelle
-grise en haut de la fenêtre de la ressource.
-
-Pour effacer le valeur d’une propriété, utiliser l’icône de la poubelle
-rouge et blanche à côté de la valeur même.
-
-Dans les deux cas, un message de confirmation s’affiche avant de
-procéder à éliminer la ressource.
 
 
 
@@ -513,6 +459,7 @@ ou une datation avant ou égal à (≤) 1920 sont au nombre de 48.
 
 
 
+
 <a style="color:lightgrey" href="#top">&#11025;</a> <a name="liens">Liens et références bibliographiques dans le texte</a>
 ==================================================
 
@@ -566,9 +513,65 @@ apparaît dans une entrée bibliographique, mais pour laquelle il n’y a ni
 notice ni photo.
 
 Par exemple, Olivier Cherpillod est une personne, tandis que Ursula
-Kobilijac est une autrice. Des gens peuvent figurer comme personne et
+Kobilijac est une autrice. Certaines personnes peuvent figurer comme personne et
 comme auteur (traducteur, éditeur ou collaborateur), c’est le cas de
 Catherine Colomb ou Maurice Chappaz.
+
+
+
+<a style="color:lightgrey" href="#top">&#11025;</a> <a name="lire">Lire, modifier et effacer une ressource et ses liens</a>
+====================================================
+
+Lire
+----
+
+Une fois qu’une requête a été effectuée, cliquer dans la liste des
+résultats sur la ressource à afficher : une nouvelle fenêtre s’ouvre. Le
+petit graphe en haut donne une visualisation des liens entre les
+données. La première ligne contient un point d’interrogation pour
+[créer des liens](#liens) ; le type (ou classe) de la ressource ; une
+poubelle pour effacer la ressource entière. Les autres icônes ne seront
+pas utilisées. La deuxième ligne montre le label.
+
+La section Descriptive Metadata contient les données de cette ressource.
+
+En plus, le champ ‘a standoff lien vers’ liste les liens à des
+ressources qui existent dans des champs textes de la ressource présente
+(par exemple, dans la ressource ‘pers\_Chappaz Maurice’ il y apparaît la
+publication de la correspondance, car dans la notice – qui est un champ
+texte– il y a un lien vers cette publication). Tous en bas de la fenêtre, dans la section
+‘Other objects referencing this object’ sont listées toutes les
+ressources qui ont des liens vers la ressource présente (**par exemple,
+pour une publication apparaissent ici les documents d’archive en
+liens**).
+
+Modifier
+--------
+
+La modification des valeurs des propriétés d’une ressource qui existent
+déjà se fait directement dans la/les valeur(s) à modifier, et non pas
+pour la ressource entière.
+
+Cliquer sur le petit crayon à côté de la valeur à modifier, modifier, ne
+pas oublier de sauvegarder (cliquer sur l’icône floppy disk) avant de
+fermer la fenêtre.
+
+Se souvenir de mettre à jour le label, si les valeurs changées sont les
+mêmes qui figurent dans le label (par exemple la date).
+
+Effacer
+-------
+
+Pour effacer une ressource entière, utiliser l’icône de la poubelle
+grise en haut de la fenêtre de la ressource.
+
+Pour effacer le valeur d’une propriété, utiliser l’icône de la poubelle
+rouge et blanche à côté de la valeur même.
+
+Dans les deux cas, un message de confirmation s’affiche avant de
+procéder à éliminer la ressource.
+
+
 
 
 
