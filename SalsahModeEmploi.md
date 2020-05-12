@@ -80,19 +80,17 @@ Les labels ont la forme listée ci-dessous, selon le cas :
 
 - en italique les variables à remplacer cas par cas, suivi par \_ sans
 espace ;
-- le signe ‘\_\_\_’ correspond à trois fois ‘\_’ et est précédé et suivi
-par un espace ;
 - pour l’auteur sont toujours donnés : *Nom Prénom*.
 
 ### Document d'archive
 
-fiche\_*Fonds Cote* \_\_\_ *Titre*
+fiche\_*Fonds Cote*\_*Titre*
 
-ex : fiche\_CRLR GR MS 1 I/8c \_\_\_ Canzone di Togliatti
+ex : fiche\_CRLR GR MS 1 I/8c\_Canzone di Togliatti
 
-ex : fiche\_CRLR GR MS 6 B1 /1a \_\_\_ \[…wohl versteh ich die Frage…\]
+ex : fiche\_CRLR GR MS 6 B1 /1a\_\[…wohl versteh ich die Frage…\]
 
-ex : fiche\_Bibliothèque Roud \_\_\_ Note de lecture Cesare Pavese: "La Luna e i falò"
+ex : fiche\_Bibliothèque Roud\_Note de lecture Cesare Pavese: "La Luna e i falò"
 
 ### Auteur, traducteur, éditeur, collaborateur
 
@@ -104,37 +102,30 @@ ex : aut\_Crisinel Edmond-Henri
 
 ### Publication (livre)
 
-pub\_*Auteur* \_\_\_ *Titre* \_\_\_ *Date*
+pub\_*Auteur*\_*Titre*\_*Date*
 
-ex : pub\_Collectif \_\_\_ Gustave Roud, la plume et le regard \_\_\_
-1991
+ex : pub\_Collectif\_Gustave Roud, la plume et le regard\_1991
 
-ex : pub\_Roud Gustave \_\_\_ Le Repos du cavalier \_\_\_ 1952
+ex : pub\_Roud Gustave\_Le Repos du cavalier\_1952
 
 ### Publication (section d’un livre)
 
-pub\_*Auteur* \_\_\_ *Titre de la section* \_\_\_ *Titre du volume*
-\_\_\_ *date*
+pub\_*Auteur*\_*Titre de la section*\_*Titre du volume*\_*date*
 
-ex : pub\_Roud Gustave \_\_\_ \[Peut-être la brève présentation…\]
-\_\_\_ Catherine Colomb, Œuvres \_\_\_ 1968
+ex : pub\_Roud Gustave\_\[Peut-être la brève présentation…\]\_Catherine Colomb, Œuvres\_1968
 
-ex : pub\_Pache Roger \_\_\_ Mes relations d'amitié avec Gustave Roud,
-\_\_\_ Rencontres et Souvenirs, 1914-1984 \_\_\_ 1985
+ex : pub\_Pache Roger\_Mes relations d'amitié avec Gustave Roud,\_Rencontres et Souvenirs, 1914-1984\_1985
 
 ### Publication (article dans périodique)
 
-pub\_*Auteur* \_\_\_ *Titre de l’article* \_\_\_ *Nom du périodique*
-\_\_\_ *date*
+pub\_*Auteur*\_*Titre de l’article*\_*Nom du périodique*\_*date*
 
 Il n’est pas nécessaire de mettre des underscores à l’interieur du nom
 du périodique.
 
-ex : pub\_Roud Gustave \_\_\_ Annonce d'un Adieu \_\_\_ Présence \_\_\_
-1932
+ex : pub\_Roud Gustave\_Annonce d'un Adieu\_Présence\_1932
 
-ex : pub\_Roud Gustave \_\_\_ Un livre sur Gaston Vaudou \_\_\_
-Gazette\_de\_Lausanne \_\_\_ 1958-09-27
+ex : pub\_Roud Gustave\_Un livre sur Gaston Vaudou\_Gazette\_de\_Lausanne\_1958-09-27
 
 ### Périodique
 
@@ -177,25 +168,24 @@ ex : lieu\_Clos des Abbayes
 
 ### Texte établi (page du site)
 
-Si imprimé → web\_*titre* \_\_\_ *si pas livre, titre du volume ou
-du périodique* \_\_\_ *date*
+Si imprimé → web\_*titre*\_*si pas livre, titre du volume ou
+du périodique*\_*date*
 
-Si manuscrit → web\_*titre \_\_\_ fonds cote*
+Si manuscrit → web\_*titre\_fonds cote*
 
-ex : web\_Cueilleurs de pommes à Monnéaz \_\_\_ La\_Guilde\_du\_Livre
-\_\_\_ 1946
+ex : web\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946
 
-ex : web\_Cueilleurs de pommes à Monnéaz \_\_\_ CRLR GR MS 1 G/2b
+ex : web\_Cueilleurs de pommes à Monnéaz\_CRLR GR MS 1 G/2b
 
 ex : web\_Catherine Colomb ou notre monde périssable sauvé par la
-poésie \_\_\_ CRLR GR MS 2 F/4b
+poésie\_CRLR GR MS 2 F/4b
 
 
 ### Dossier génétique
 
-dossier\_*titre* \_\_\_ *si pas livre titre du volume ou du périodique* \_\_\_ *année*
+dossier\_*titre*\_*si pas livre titre du volume ou du périodique*\_*année*
 
-ex : dossier\_Cendre \_\_\_ Aujourd'hui \_\_\_ 1030
+ex : dossier\_Cendre\_Aujourd'hui\_1030
 
 
 
@@ -586,15 +576,14 @@ Dans la fenêtre qui s'ouvre, choisir le vocabulaire et la classe (Page du site)
 
 <u>Commencer par la **publication** et après insérer les documents (manuscrits, etc.) s'il y en a</u>. Attention ! Le label pour les pages du site est se construit comme ça : 
 
-Si imprimé → web\_*titre* \_\_\_ *si pas livre, titre du volume ou
-du périodique *\_\_\_ *date*
+Si imprimé → web\_*titre*\_*si pas livre, titre du volume ou
+du périodique*\_*date*
 
-Si manuscrit → web\_*titre \_\_\_ fonds cote*
+Si manuscrit → web\_*titre\_fonds cote*
 
-ex : web\_Cueilleurs de pommes à Monnéaz \_\_\_ La\_Guilde\_du\_Livre
-\_\_\_ 1946-11
+ex : web\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946-11
 
-ex : web\_Cueilleurs de pommes à Monnéaz \_\_\_ CRLR GR MS 1 G/2b
+ex : web\_Cueilleurs de pommes à Monnéaz\_CRLR GR MS 1 G/2b
 
 <u>Pendant la saisie de la publication, il faut créer le dossier génétique</u>.
 
@@ -602,8 +591,7 @@ Pour l'instant, la seule cheuse à définir est le label, que pour le dossier g�
 
 dossier\_*publication (titre, si pas livre titre du volume ou du périodique, date)*
 
-ex : dossier\_Cueilleurs de pommes à Monnéaz \_\_\_ La\_Guilde\_du\_Livre
-\_\_\_ 1946-11
+ex : dossier\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946-11
 
 
 
