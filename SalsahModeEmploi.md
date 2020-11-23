@@ -6,7 +6,7 @@
 
 - [Premiers pas et configurations générales](#premiers)
 - [Recherche simple](#recherche-simple)
-- [Label (étiquette)](#label)
+- [Label (étiquette)](#-label-étiquette)
 - [Symboles logiques utilisés dans les requêtes](#symboles)
 - [Recherche avancée](#recherche-avancee)
 - [Lire, modifier et effacer une ressource et ses liens](#lire)
@@ -55,6 +55,7 @@ champ texte à côté (*toujours limiter la recherche à une base*) ;
 
 En haut de la page. Sélectionner la base sur laquelle lancer la
 recherche : *roud-oeuvres* ; insérer le(s) mot(s) à chercher et envoyer la requête.
+Pour chercher plusieurs mots suivis, utiliser " au début et à la fin, ex. "bain d'un faucheur".
 
 Les résultats s’ouvrent dans une nouvelle fenêtre. La première chose à
 regarder est le type de ressource (deuxième colonne) ; en passant la
@@ -82,6 +83,17 @@ Les labels ont la forme listée ci-dessous, selon le cas :
 espace ;
 - pour l’auteur sont toujours donnés : *Nom Prénom*.
 
+En ordre alphabétique :
+
+### Auteur, traducteur, éditeur, collaborateur
+
+aut\_*Auteur*
+
+ex : aut\_Roud Gustave
+
+ex : aut\_Crisinel Edmond-Henri
+
+
 ### Document d'archive
 
 fiche\_*Fonds Cote*\_*Titre*
@@ -92,13 +104,124 @@ ex : fiche\_CRLR GR MS 6 B1 /1a\_\[…wohl versteh ich die Frage…\]
 
 ex : fiche\_Bibliothèque Roud\_Note de lecture Cesare Pavese: "La Luna e i falò"
 
-### Auteur, traducteur, éditeur, collaborateur
 
-aut\_*Auteur*
 
-ex : aut\_Roud Gustave
+### Dossier génétique
 
-ex : aut\_Crisinel Edmond-Henri
+dossier\_*titre*\_*si pas livre, titre du volume ou du périodique*\_*date ou seulement année*
+
+ex : dossier\_Adieu\_1927
+
+ex : dossier\_L'Aveuglement\_Écriture\_1966
+
+
+### Dossier génétique (partie)
+
+dossierPartie\_*label du dossier*\_*numéro progressif de la partie de la publication ou du manuscrit corréspondant*
+
+ex : dossierPartie\_Adieu\_1927\_1
+
+ex : dossierPartie\_L'Aveuglement\_Écriture\_1966\_2
+
+
+
+<!--
+### Événements biografique
+
+bio\_année (si periode, premierAnnée-DeuxiemeAnnée)
+-->
+
+
+### Lieu
+
+lieu\_*nom du lieu*
+
+ex : lieu\_Clos des Abbayes
+
+
+### Maison d’édition
+
+edi\_*Nom de la maison d’édition*
+
+ex : edi\_L'Âge d'Homme
+
+
+### Œuvre (littéraire, musique, art)
+
+œuvre\_*auteur*\_*titre*
+
+ex : œuvre\_Clément Charles\_Pont sur l'Aubonne
+
+
+
+### Page scanée
+
+page\_*fonds*\_*cote*\_*nom de la page*\_*numéro progressif*
+
+page\_*titre*\_*si pas livre, titre du volume ou
+du périodique*\_*date*\_*nom de la page*\_*numéro progressif*
+
+
+### Parcours
+
+parcours\_*titre abrégé*
+
+ex : parcours\_Mise en recueil
+
+
+### Partie d'un manuscrit (journal seulement)
+
+msPartie\_*titre de la partie*\_*fonds et cote*\_*numéro progressif*
+
+ex : msPartie\_27. II. 17.\_CRLR GR MS 4A/1a\_15
+
+
+### Partie d'une publication
+
+pubPartie\_*titre de la partie*\_*titre de la publication*\_*si pas livre, titre du volume ou
+du périodique*\_*date ou année seulement*\_*numéro progressif*
+
+ex : pubPartie\_II\_L'aveuglement\_Écriture\_1966\_2
+
+ex : pubPartie\_[Cube de corps et de fumée]\_Adieu\_1927\_2
+
+
+
+### Périodique
+
+period\_*Nom du périodique*
+
+ex : period\_Formes et couleurs
+
+### Personne
+
+pers\_*Personne*
+
+ex : pers\_Colomb Catherine
+
+ex : pers\_Thévoz Edmond
+
+ex : pers\_Rey-Milliet Constant
+
+
+### Photo
+
+photo\_*legende de la photo (abrégé si longue)*
+
+ex : photo\_Louisa Cherpillod
+
+
+### Publication (article dans périodique)
+
+pub\_*Auteur*\_*Titre de l’article*\_*Nom du périodique*\_*date*
+
+Il n’est pas nécessaire de mettre des underscores à l’interieur du nom
+du périodique.
+
+ex : pub\_Roud Gustave\_Annonce d'un Adieu\_Présence\_1932
+
+ex : pub\_Roud Gustave\_Un livre sur Gaston Vaudou\_Gazette\_de\_Lausanne\_1958-09-27
+
 
 ### Publication (livre)
 
@@ -116,105 +239,21 @@ ex : pub\_Roud Gustave\_\[Peut-être la brève présentation…\]\_Catherine Co
 
 ex : pub\_Pache Roger\_Mes relations d'amitié avec Gustave Roud,\_Rencontres et Souvenirs, 1914-1984\_1985
 
-### Publication (article dans périodique)
-
-pub\_*Auteur*\_*Titre de l’article*\_*Nom du périodique*\_*date*
-
-Il n’est pas nécessaire de mettre des underscores à l’interieur du nom
-du périodique.
-
-ex : pub\_Roud Gustave\_Annonce d'un Adieu\_Présence\_1932
-
-ex : pub\_Roud Gustave\_Un livre sur Gaston Vaudou\_Gazette\_de\_Lausanne\_1958-09-27
-
-### Périodique
-
-period\_*Nom du périodique*
-
-ex : period\_Formes et couleurs
-
-### Maison d’édition
-
-edi\_*Nom de la maison d’édition*
-
-ex : edi\_L'Âge d'Homme
-
-### Personne
-
-pers\_*Personne*
-
-ex : pers\_Colomb Catherine
-
-ex : pers\_Thévoz Edmond
-
-ex : pers\_Rey-Milliet Constant
-
-### Page scanée
-
-page\_*fonds*\_*cote*\_*nom de la page*\_*numéro progressif*
-
-page\_*titre*\_*si pas livre, titre du volume ou
-du périodique*\_*date*\_*nom de la page*\_*numéro progressif*
-
-### Événements biografique
-
-bio\_année (si periode, premierAnnée-DeuxiemeAnnée)
-
-### Lieu
-
-lieu\_*nom du lieu*
-
-ex : lieu\_Clos des Abbayes
 
 ### Texte établi
 
-Si imprimé → web\_*titre*\_*si pas livre, titre du volume ou
+Si imprimé → texte\_*titre*\_*si pas livre, titre du volume ou
 du périodique*\_*date*
 
-Si manuscrit → web\_*titre\_fonds cote*
+Si manuscrit → texte\_*titre\_fonds cote*
 
-ex : web\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946
+ex : texte\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946
 
-ex : web\_Cueilleurs de pommes à Monnéaz\_CRLR GR MS 1 G/2b
+ex : texte\_Cueilleurs de pommes à Monnéaz\_CRLR GR MS 1 G/2b
 
-ex : web\_Catherine Colomb ou notre monde périssable sauvé par la
+ex : texte\_Catherine Colomb ou notre monde périssable sauvé par la
 poésie\_CRLR GR MS 2 F/4b
 
-
-### Dossier génétique
-
-dossier\_*titre*\_*si pas livre titre du volume ou du périodique*\_*année*
-
-ex : dossier\_Cendre\_Aujourd'hui\_1030
-
-
-
-### Événements biografique
-
-bio\_*année.mois.jour*\_*titre de l'événement* 
-
-(si periode, premierAnnée-DeuxiemeAnnée)
- 
-
-
-### Œuvre (littéraire, musique, art)
-
-œuvre\_*auteur*\_*titre*
-
-ex : œuvre\_Clément Charles\_Pont sur l'Aubonne
-
-### Photo
-
-photo\_*legende de la photo (abrégé si longue)*
-
-ex : photo\_Louisa Cherpillod
-
-
-### Parcours
-
-parcours\_*titre abrégé*
-
-ex : parcours\_Mise en recueil
 
 
 
