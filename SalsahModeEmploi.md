@@ -23,7 +23,7 @@
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a>Premiers pas et configurations générales
+<a href="#top">&#11025;</a>Premiers pas et configurations générales
 ===================================================
 
 S’identifier, en cliquant sur le bonhomme bleu.
@@ -44,7 +44,7 @@ champ texte à côté (*toujours limiter la recherche à une base*) ;
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <span id="recherche-simple">Recherche simple</span>
+<a href="#top">&#11025;</a> Recherche simple
 =============================
 
 En haut de la page. Sélectionner la base sur laquelle lancer la
@@ -63,7 +63,7 @@ la personne Maurice Chappaz.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <span id="label">Label (étiquette)</span>
+<a href="#top">&#11025;</a> Label (étiquette)
 ==============================
 
 Les labels sont très importants dans Knora-Salsah parce qu’ils
@@ -251,7 +251,7 @@ poésie\_CRLR GR MS 2 F/4b
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <span id="symboles">Symboles logiques utilisés dans les requêtes</span>
+<a href="#top">&#11025;</a> Symboles logiques utilisés dans les requêtes
 ============================================
 
 ### Pour les textes
@@ -326,7 +326,7 @@ résultats.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <span id="recherche-avancee">Recherche avancée</span>
+<a href="#top">&#11025;</a> Recherche avancée
 =================
 
 Ouvrir la fenêtre pour la recherche avancée avec l’icône loupe et plus.
@@ -393,7 +393,7 @@ cette propriété dans la requête.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <span id="lire">Lire, modifier et effacer une ressource et ses liens</span>
+<a href="#top">&#11025;</a> Lire, modifier et effacer une ressource et ses liens
 ====================================================
 
 Lire
@@ -448,7 +448,7 @@ procéder à éliminer la ressource.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <span id="conditions">Spécifier plusieurs conditions sur des propriétés</span>
+<a href="#top">&#11025;</a> Spécifier plusieurs conditions sur des propriétés
 =================================================
 
 On peut ajouter des conditions sur plusieurs propriétés (icône plus sous
@@ -479,7 +479,7 @@ lancer la recherche, on obtiendra 19 résultats.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <span id="publication">Classe abstraite Publication</span>
+<a href="#top">&#11025;</a> Classe abstraite Publication
 ============================
 
 Certaines classes (ou types de ressource) et propriétés sont des classes
@@ -507,7 +507,7 @@ lancer la recherche, on obtiendra 3 résultats.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="dates">Dates dans les manuscrits</a>
+<a href="#top">&#11025;</a> <a name="dates">Dates dans les manuscrits</a>
 =========================
 
 Les manuscrits peuvent avoir une date ou une datation. Chaque date et
@@ -542,7 +542,7 @@ ou une datation avant ou égal à (≤) 1920 sont au nombre de 48.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="liens">Liens</a>
+<a href="#top">&#11025;</a> <a name="liens">Liens</a>
 ==================================================
 
 Les ressources peuvent avoir des propriétés de type texte, comme les
@@ -582,7 +582,7 @@ Dans le cas d'un lien vers une fiche, le lien se tient sur une portion de texte 
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="distinction">Distinction entre auteur et personne</a>
+<a href="#top">&#11025;</a> <a name="distinction">Distinction entre auteur et personne</a>
 ==================================
 
 La personne a une notice, éventuellement une photo, et peut être
@@ -599,14 +599,14 @@ Catherine Colomb ou Maurice Chappaz.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="input">Saisie des données</a>
+<a href="#top">&#11025;</a> <a name="input">Saisie des données</a>
 ========
 
 Pour insérer des données, cliquer sur l'icône verte +, en haut à droite.
 Dans la fenêtre qui s'ouvre, choisir la classe.
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="webpage">Saisie des textes</a>
+<a href="#top">&#11025;</a> <a name="webpage">Saisie des textes</a>
 ------------------
 
 Classe "texte établi".
@@ -615,10 +615,10 @@ Insérer
 - le label (voir <a href="#-label-étiquette">ci-dessus</a>) ;
 - le titre (comme il apparait dans l'édition papier) ;
 - l'ensemble éditorial ;
-- la publication ou le manuscrit qui ont servi de base pour l'établissement du texte (attention, cela se fait en utilisant le label de la publication ou du manuscrit en question ; pour savoir comment sont construits les labels, voir <a href="label">ci-dessus<a href="label">).
+- la publication ou le manuscrit qui ont servi de base pour l'établissement du texte (attention, cela se fait en utilisant le label de la publication ou du manuscrit en question ; pour savoir comment sont construits les labels, voir [ci-dessus](#-label-étiquette).
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="enter_photo">Saisie des parcours</a>
+<a href="#top">&#11025;</a> <a name="enter_photo">Saisie des parcours</a>
 ------------------
 
 Insérer deux photos et deux scans pour chaque parcours.
@@ -626,7 +626,7 @@ Insérer deux photos et deux scans pour chaque parcours.
 Ne pas utiliser le bouton pour les citations dans l'éditeur de texte.
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="enter_persons">Saisie des personnes</a>
+<a href="#top">&#11025;</a> <a name="enter_persons">Saisie des personnes</a>
 -----------------
 
 Insérer toutes les infos (si connus) jusqu'à la notice. La source est à remplir seulement si on veut indiquer de la bibliographie ou des pages web spécifiques, ce qui n'est pas nécessaire dans la plus part de cas (le savoir du chantier Roud est la source ;).
@@ -635,7 +635,7 @@ La base de données VIAF (Virtual International Authority File), qui est un <a h
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="enter_places">Saisie des lieux</a>
+<a href="#top">&#11025;</a> <a name="enter_places">Saisie des lieux</a>
 -----------------
 
 La latitude et longitude d'un lieu peuvent être trouvées de différentes manières. Utiliser par exemple 
@@ -645,7 +645,7 @@ La latitude et longitude d'un lieu peuvent être trouvées de différentes mani�
 - https://www.google.com/maps. Lat et long apparaissent avec un clic droit sur l'icône rouge sur la carte (il suffit de cliquer dessus pour copier-coller). Pour les lieux qui ne sont pas signalés, cliquer sur la carte à l'endroit souhaité.
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="enter_works">Saisie des œuvres</a>
+<a href="#top">&#11025;</a> <a name="enter_works">Saisie des œuvres</a>
 -----------------
 
 Les œuvres ne sont pas seulement les objets de la critique d'art et littéraires de Roud. Elles nous servent aussi à organiser l'information qui se trouve dans les notes de bas de page, parce que, à différence des publications par exemple, elles ont une notice.
@@ -653,11 +653,11 @@ Les œuvres ne sont pas seulement les objets de la critique d'art et littéraire
 On lit par **exemple** dans le journal (section XIII du cahier « Mai 16-mars 17 », MS 4 A/1a) : « entre Prahins et Molondin je pensais à la (théorie) de Ramuz – et le thé dans la gourde après le char croisé. » Et dans la note de bas de page, après « Ramuz », on lit : « Roud pense probablement à *Raison d’être*, publié en mars 1914 dans le premier numéro des *Cahiers vaudois* (*Essais*, 1, *OC*, XV, p. 5). L’essai fut considéré dès sa parution comme le manifeste d’une nouvelle génération d’artistes romands. Ramuz y revendique l’invention d’une langue propre et d’un art ancré dans un territoire, bien que tendu vers une dimension universelle ». Dans ce cas, il faudra créer une œuvre littéraire, qui a pour auteur 'Ramuz', pour titre 'Raison d'être' et pour date 'mars 1914', avec la notice suivante : 'Publié en mars 1914 dans le premier numéro des *Cahiers vaudois*, l’essai fut considéré dès sa parution comme le manifeste d’une nouvelle génération d’artistes romands. Ramuz y revendique l’invention d’une langue propre et d’un art ancré dans un territoire, bien que tendu vers une dimension universelle'. Dans le texte du journal, on pourra après faire un lien vers cette œuvre (Elena s'occupe de cela dans l'encodage).
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="enter_photo">Saisie des photos</a>
+<a href="#top">&#11025;</a> <a name="enter_photo">Saisie des photos</a>
 ------------------
 
 Insérer seulement :
-- le label (voir <a href="label">ci-dessus</a>),
+- le label (voir [ci-dessus](#-label-étiquette)),
 - le fichier, 
 - la légende et 
 - la cote de la photo, où on indique aussi le copyright. Pour les photos de Roud à la BCUL, utilisons toujours "© Fonds photographique Gustave Roud/Subilia, BCUL, AAGR" (sans guillemets).
@@ -666,7 +666,7 @@ Les autres champs ne sont pas utilisés.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="problemes">Problèmes</a>
+<a href="#top">&#11025;</a> <a name="problemes">Problèmes</a>
 ========
 
 Si on n’arrive pas à obtenir les résultats voulus ou que l’interface ne
@@ -675,7 +675,7 @@ n’hésitez pas à contacter Elena.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="raccourci">Raccourcis clavier</a>
+<a href="#top">&#11025;</a> <a name="raccourci">Raccourcis clavier</a>
 ====================================
 
 Sur Mac, les raccourcis suivants peuvent être utiles.
