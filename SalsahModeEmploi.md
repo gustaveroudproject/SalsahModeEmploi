@@ -4,32 +4,26 @@
 
 ## Table des matières
 
-- [Premiers pas et configurations générales](#premiers)
-- [Recherche simple](#recherche-simple)
+- [Premiers pas et configurations générales](#premiers-pas-et-configurations-générales)
+- [Recherche simple](#-recherche-simple)
 - [Label (étiquette)](#-label-étiquette)
-- [Symboles logiques utilisés dans les requêtes](#symboles)
-- [Recherche avancée](#recherche-avancee)
-- [Lire, modifier et effacer une ressource et ses liens](#lire)
-- [Spécifier plusieurs conditions sur des propriétés](#conditions)
-- [Classe abstraite Publication](#publication)
-- [Dates dans les manuscrits](#dates)
-- [Liens et références bibliographiques dans le texte](#liens)
-- [Distinction entre auteur et personne](#distinction)
-- [Saisie des données](#input)
-    - [Saisie des lieux](#lieux)
-    - [Saisie des pages du site ou textes critiques](#webpage)
-- [Problèmes](#problemes)
-- [Raccourcis clavier](#raccourci)
+- [Symboles logiques utilisés dans les requêtes](#-symboles-logiques-utilisés-dans-les-requêtes)
+- [Recherche avancée](#-recherche-avancée)
+- [Lire, modifier et effacer une ressource et ses liens](#-lire-modifier-et-effacer-une-ressource-et-ses-liens)
+- [Spécifier plusieurs conditions sur des propriétés](#-spécifier-plusieurs-conditions-sur-des-propriétés)
+- [Classe abstraite Publication](#-classe-abstraite-publication)
+- [Dates dans les manuscrits](#-dates-dans-les-manuscrits)
+- [Liens et références bibliographiques dans le texte](#-liens)
+- [Distinction entre auteur et personne](#-distinction-entre-auteur-et-personne)
+- [Saisie des données](#-saisie-des-données)
+- [Problèmes](#-problèmes)
+- [Raccourcis clavier](#-raccourcis-clavier)
 
 
 
 
 
-
-
-
-
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="premiers">Premiers pas et configurations générales
+<a style="color:lightgrey" href="#top">&#11025;</a>Premiers pas et configurations générales
 ===================================================
 
 S’identifier, en cliquant sur le bonhomme bleu.
@@ -50,7 +44,7 @@ champ texte à côté (*toujours limiter la recherche à une base*) ;
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="recherche-simple">Recherche simple</a>
+<a style="color:lightgrey" href="#top">&#11025;</a> <span id="recherche-simple">Recherche simple</span>
 =============================
 
 En haut de la page. Sélectionner la base sur laquelle lancer la
@@ -69,7 +63,7 @@ la personne Maurice Chappaz.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="label">Label (étiquette)
+<a style="color:lightgrey" href="#top">&#11025;</a> <span id="label">Label (étiquette)</span>
 ==============================
 
 Les labels sont très importants dans Knora-Salsah parce qu’ils
@@ -257,7 +251,7 @@ poésie\_CRLR GR MS 2 F/4b
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="symboles">Symboles logiques utilisés dans les requêtes</a>
+<a style="color:lightgrey" href="#top">&#11025;</a> <span id="symboles">Symboles logiques utilisés dans les requêtes</span>
 ============================================
 
 ### Pour les textes
@@ -332,7 +326,7 @@ résultats.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="recherche-avancee">Recherche avancée</a>
+<a style="color:lightgrey" href="#top">&#11025;</a> <span id="recherche-avancee">Recherche avancée</span>
 =================
 
 Ouvrir la fenêtre pour la recherche avancée avec l’icône loupe et plus.
@@ -399,7 +393,7 @@ cette propriété dans la requête.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="lire">Lire, modifier et effacer une ressource et ses liens</a>
+<a style="color:lightgrey" href="#top">&#11025;</a> <span id="lire">Lire, modifier et effacer une ressource et ses liens</span>
 ====================================================
 
 Lire
@@ -454,7 +448,7 @@ procéder à éliminer la ressource.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="conditions">Spécifier plusieurs conditions sur des propriétés</a>
+<a style="color:lightgrey" href="#top">&#11025;</a> <span id="conditions">Spécifier plusieurs conditions sur des propriétés</span>
 =================================================
 
 On peut ajouter des conditions sur plusieurs propriétés (icône plus sous
@@ -485,7 +479,7 @@ lancer la recherche, on obtiendra 19 résultats.
 
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="publication">Classe abstraite Publication</a>
+<a style="color:lightgrey" href="#top">&#11025;</a> <span id="publication">Classe abstraite Publication</span>
 ============================
 
 Certaines classes (ou types de ressource) et propriétés sont des classes
