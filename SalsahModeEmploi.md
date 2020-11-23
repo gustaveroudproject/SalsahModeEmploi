@@ -166,7 +166,7 @@ lieu\_*nom du lieu*
 
 ex : lieu\_Clos des Abbayes
 
-### Texte établi (page du site)
+### Texte établi
 
 Si imprimé → web\_*titre*\_*si pas livre, titre du volume ou
 du périodique*\_*date*
@@ -205,6 +205,16 @@ ex : œuvre\_Clément Charles\_Pont sur l'Aubonne
 
 ### Photo
 
+photo\_*legende de la photo (abrégé si longue)*
+
+ex : photo\_Louisa Cherpillod
+
+
+### Parcours
+
+parcours\_*titre abrégé*
+
+ex : parcours\_Mise en recueil
 
 
 
@@ -561,43 +571,44 @@ Catherine Colomb ou Maurice Chappaz.
 <a style="color:lightgrey" href="#top">&#11025;</a> <a name="input">Saisie des données</a>
 ========
 
+Pour insérer des données, cliquer sur l'icône verte +, en haut à droite.
+Dans la fenêtre qui s'ouvre, choisir la classe.
 
 <a style="color:lightgrey" href="#top">&#11025;</a> <a name="lieux">Saisie des lieux</a>
 -----------------
 À ajouter ...
 
 
-<a style="color:lightgrey" href="#top">&#11025;</a> <a name="webpage">Saisie des pages du site ou textes critiques</a>
+<a style="color:lightgrey" href="#top">&#11025;</a> <a name="webpage">Saisie des textes</a>
 ------------------
 
-Pour insérer des pages du site (textes critiques et dossier génétique), cliquer sur l'icône verte +, en haut à droite.
+Classe "texte établi".
 
-Dans la fenêtre qui s'ouvre, choisir le vocabulaire et la classe (Page du site).
-
-<u>Commencer par la **publication** et après insérer les documents (manuscrits, etc.) s'il y en a</u>. Attention ! Le label pour les pages du site est se construit comme ça : 
-
-Si imprimé → web\_*titre*\_*si pas livre, titre du volume ou
-du périodique*\_*date*
-
-Si manuscrit → web\_*titre\_fonds cote*
-
-ex : web\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946-11
-
-ex : web\_Cueilleurs de pommes à Monnéaz\_CRLR GR MS 1 G/2b
-
-<u>Pendant la saisie de la publication, il faut créer le dossier génétique</u>.
-
-Pour l'instant, la seule cheuse à définir est le label, que pour le dossier génétique se construit de la même manière de la page du site mais avec le mot 'dossier' :
-
-dossier\_*publication (titre, si pas livre titre du volume ou du périodique, date)*
-
-ex : dossier\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946-11
+Insérer
+- le label (voir <a href="#-label-étiquette">ci-dessus</a>) ;
+- le titre (comme il apparait dans l'édition papier) ;
+- l'ensemble éditorial ;
+- la publication ou le manuscrit qui ont servi de base pour l'établissement du texte (attention, cela se fait en utilisant le label de la publication ou du manuscrit en question ; pour savoir comment sont construits les labels, voir <a href="label">ci-dessus<a href="label">).
 
 
+<a style="color:lightgrey" href="#top">&#11025;</a> <a name="enter_photo">Saisie des photos</a>
+------------------
+
+Insérer seulement :
+- le label (voir <a href="label">ci-dessus</a>),
+- le fichier, 
+- la légende et 
+- la cote de la photo. La cote est toujours "© Fonds photographique Gustave Roud/Subilia, BCUL, AAGR" (sans guillemets).
+
+Les autres champs ne sont pas utilisés.
 
 
+<a style="color:lightgrey" href="#top">&#11025;</a> <a name="enter_photo">Saisie des parcours</a>
+------------------
 
+Insérer deux photos et deux scans pour chaque parcours.
 
+Ne pas utiliser le bouton pour les citations dans l'éditeur de texte.
 
 
 
