@@ -241,6 +241,8 @@ du périodique*\_*date*
 
 Si manuscrit → texte\_*titre\_fonds cote*
 
+ex : texte\_Adieu\_1927
+
 ex : texte\_Cueilleurs de pommes à Monnéaz\_La\_Guilde\_du\_Livre\_1946
 
 ex : texte\_Cueilleurs de pommes à Monnéaz\_CRLR GR MS 1 G/2b
