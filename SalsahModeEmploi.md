@@ -628,6 +628,13 @@ Insérer deux photos et deux scans pour chaque parcours.
 Ne pas utiliser le bouton pour les citations dans l'éditeur de texte.
 
 
+<a href="#top">&#11025;</a> <a name="enter_persons">Saisie des auteurs, traducteurs, etc.</a>
+-----------------
+
+Attention! Ne pas indiquer VIAF ID et ID du Dictionnaire historique de la Suisse.
+
+
+
 <a href="#top">&#11025;</a> <a name="enter_persons">Saisie des personnes</a>
 -----------------
 
