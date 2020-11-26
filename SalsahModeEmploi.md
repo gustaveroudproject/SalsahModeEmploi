@@ -669,6 +669,8 @@ Les autres champs ne sont pas utilisés.
 
 Pour les photos de Roud à la BCUL, consultables à l'adresse <http://roud.unil.ch/fmi/webd/Roud>, transmettre la demande d'images (cotes) à Stéphane, qui le fera passer à la BCUL à intervalle régulier.
 
+Pour les images au CLSR, contacter Nam et choisir avec lui le bon copyright (informer Elena svp pour l'ajouter ici).
+
 
 
 <a href="#top">&#11025;</a> Saisie des textes
