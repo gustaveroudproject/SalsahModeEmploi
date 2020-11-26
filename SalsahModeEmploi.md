@@ -509,7 +509,7 @@ lancer la recherche, on obtiendra 3 résultats.
 
 
 
-<a href="#top">&#11025;</a> <a name="dates">Dates dans les manuscrits</a>
+<a href="#top">&#11025;</a> Dates dans les manuscrits
 =========================
 
 Les manuscrits peuvent avoir une date ou une datation. Chaque date et
@@ -544,7 +544,7 @@ ou une datation avant ou égal à (≤) 1920 sont au nombre de 48.
 
 
 
-<a href="#top">&#11025;</a> <a name="liens">Liens</a>
+<a href="#top">&#11025;</a> Liens et références bibliographiques
 ==================================================
 
 Les ressources peuvent avoir des propriétés de type texte, comme les
@@ -584,7 +584,8 @@ Dans le cas d'un lien vers une fiche, le lien se tient sur une portion de texte 
 
 
 
-<a href="#top">&#11025;</a> <a name="distinction">Distinction entre auteur et personne</a>
+<a href="#top">&#11025;</a> 
+Distinction entre auteur et personne
 ==================================
 
 La personne a une notice, éventuellement une photo, et peut être
@@ -601,14 +602,76 @@ Catherine Colomb ou Maurice Chappaz.
 
 
 
-<a href="#top">&#11025;</a> <a name="input">Saisie des données</a>
+<a href="#top">&#11025;</a> Saisie des données
 ========
 
 Pour insérer des données, cliquer sur l'icône verte +, en haut à droite.
 Dans la fenêtre qui s'ouvre, choisir la classe.
 
+Des indications sur la saisie pour chaque classe (en ordre alphabétique) sont présentés ici à suivre.
 
-<a href="#top">&#11025;</a> <a name="webpage">Saisie des textes</a>
+<a href="#top">&#11025;</a> Saisie des auteurs, traducteurs, etc.
+-----------------
+
+Attention! Ne pas indiquer VIAF ID et ID du Dictionnaire historique de la Suisse. Ces propriétés ont vocation à disparaître.
+
+
+<a href="#top">&#11025;</a> Saisie des lieux
+-----------------
+
+La latitude et longitude d'un lieu peuvent être trouvées de différentes manières. Utiliser par exemple :
+
+- https://www.openstreetmap.org. Chercher le nom du lieu : lat et long, dans l'ordre, apparaissent à gauche, sous *Location*. Pour les lieux qui ne sont pas signalés, choisir le dernier bouton à droite (query features) et cliquer sur le point souhaité : des *Nearby features* et *Enclosing features* apparaissent. S'il y en a dont la localisation corresponde à celle souhaitée, utiliser la latitude et longitude.
+- https://www.latlong.net/
+- https://www.google.com/maps. Lat et long apparaissent avec un clic droit sur l'icône rouge sur la carte (il suffit de cliquer dessus pour copier-coller). Pour les lieux qui ne sont pas signalés, cliquer sur la carte à l'endroit souhaité.
+
+Pour les photos, voir Saisie des photos.
+
+
+<a href="#top">&#11025;</a> Saisie des œuvres
+-----------------
+
+Les œuvres ne sont pas seulement les objets de la critique d'art et littéraires de Roud. Elles nous servent aussi à organiser l'information qui se trouve dans les notes de bas de page, parce que, à différence des publications par exemple, elles ont une notice.
+
+On lit par **exemple** dans le journal (section XIII du cahier « Mai 16-mars 17 », MS 4 A/1a) : « entre Prahins et Molondin je pensais à la (théorie) de Ramuz – et le thé dans la gourde après le char croisé. » Et dans la note de bas de page, après « Ramuz », on lit : « Roud pense probablement à *Raison d’être*, publié en mars 1914 dans le premier numéro des *Cahiers vaudois* (*Essais*, 1, *OC*, XV, p. 5). L’essai fut considéré dès sa parution comme le manifeste d’une nouvelle génération d’artistes romands. Ramuz y revendique l’invention d’une langue propre et d’un art ancré dans un territoire, bien que tendu vers une dimension universelle ». Dans ce cas, il faudra créer une œuvre littéraire, qui a pour auteur 'Ramuz', pour titre 'Raison d'être' et pour date 'mars 1914', avec la notice suivante : 'Publié en mars 1914 dans le premier numéro des *Cahiers vaudois*, l’essai fut considéré dès sa parution comme le manifeste d’une nouvelle génération d’artistes romands. Ramuz y revendique l’invention d’une langue propre et d’un art ancré dans un territoire, bien que tendu vers une dimension universelle'. Dans le texte du journal, on pourra après faire un lien vers cette œuvre (Elena s'occupe de cela dans l'encodage).
+
+<a href="#top">&#11025;</a> Saisie des parcours
+------------------
+
+Insérer deux photos et deux scans pour chaque parcours.
+
+Ne pas utiliser le bouton pour les citations dans l'éditeur de texte.
+
+
+
+
+<a href="#top">&#11025;</a> Saisie des personnes
+-----------------
+
+Insérer toutes les infos (si connus) jusqu'à la photo. La source est à remplir seulement si on veut indiquer de la bibliographie ou des pages web spécifiques, ce qui n'est pas nécessaire dans la plus part de cas (le savoir du chantier Roud est dans la plupart des cas une source suffisante ;).
+
+La base de données VIAF (Virtual International Authority File), un <a href="https://fr.wikipedia.org/wiki/Autorit%C3%A9_(sciences_de_l%27information)" target="_blank">fichier d'autorité</a> international, se trouve à l'adresse <https://viaf.org/>. Dans le cas où il y a plusieurs personnes avec les mêmes noms et prénoms, nous pouvons vérifier si la personne corrésponde en regardant les infos qui apparaissent en bas de la page VIAF, par exemple dans la section *About*. Exemple : <https://viaf.org/viaf/36924019/#Roud,_Gustave,_1897-1976>.
+
+Pour les photos, voir Saisie des photos.
+
+
+
+<a href="#top">&#11025;</a> Saisie des photos
+------------------
+
+Insérer seulement :
+- le label (voir [ci-dessus](#-label-étiquette)),
+- le fichier, 
+- la légende et 
+- la cote de la photo, où on indique aussi le copyright. Pour les photos de Roud à la BCUL, utilisons toujours "© Fonds photographique Gustave Roud/Subilia, BCUL, AAGR" (sans guillemets).
+
+Les autres champs ne sont pas utilisés.
+
+Pour les photos de Roud à la BCUL, consultables à l'adresse <http://roud.unil.ch/fmi/webd/Roud>, transmettre la demande d'images (cotes) à Stéphane, qui le fera passer à la BCUL à intervalle régulier.
+
+
+
+<a href="#top">&#11025;</a> Saisie des textes
 ------------------
 
 Classe "texte établi".
@@ -620,62 +683,8 @@ Insérer
 - la publication ou le manuscrit qui ont servi de base pour l'établissement du texte (attention, cela se fait en utilisant le label de la publication ou du manuscrit en question ; pour savoir comment sont construits les labels, voir [ci-dessus](#-label-étiquette).
 
 
-<a href="#top">&#11025;</a> <a name="enter_photo">Saisie des parcours</a>
-------------------
 
-Insérer deux photos et deux scans pour chaque parcours.
-
-Ne pas utiliser le bouton pour les citations dans l'éditeur de texte.
-
-
-<a href="#top">&#11025;</a> <a name="enter_persons">Saisie des auteurs, traducteurs, etc.</a>
------------------
-
-Attention! Ne pas indiquer VIAF ID et ID du Dictionnaire historique de la Suisse.
-
-
-
-<a href="#top">&#11025;</a> <a name="enter_persons">Saisie des personnes</a>
------------------
-
-Insérer toutes les infos (si connus) jusqu'à la notice. La source est à remplir seulement si on veut indiquer de la bibliographie ou des pages web spécifiques, ce qui n'est pas nécessaire dans la plus part de cas (le savoir du chantier Roud est la source ;).
-
-La base de données VIAF (Virtual International Authority File), qui est un <a href="https://fr.wikipedia.org/wiki/Autorit%C3%A9_(sciences_de_l%27information)" target="_blank">fichier d'autorité</a> international, se trouve à l'adresse <https://viaf.org/>. Dans le cas où il y a plusieurs personnes avec les mêmes noms et prénoms, nous pouvons vérifier si la personne corrésponde en regardant les infos qui apparaissent en bas de la page VIAF, par exemple dans la section *About*. Exemple : <https://viaf.org/viaf/36924019/#Roud,_Gustave,_1897-1976>.
-
-
-
-<a href="#top">&#11025;</a> <a name="enter_places">Saisie des lieux</a>
------------------
-
-La latitude et longitude d'un lieu peuvent être trouvées de différentes manières. Utiliser par exemple 
-
-- https://www.openstreetmap.org. Chercher le nom du lieu : lat et long, dans l'ordre, apparaissent à gauche, sous *Location*. Pour les lieux qui ne sont pas signalés, choisir le dernier bouton à droite (query features) et cliquer sur le point souhaité : des *Nearby features* et *Enclosing features* apparaissent. S'il y en a dont la localisation corresponde à celle souhaitée, utiliser la latitude et longitude.
-- https://www.latlong.net/
-- https://www.google.com/maps. Lat et long apparaissent avec un clic droit sur l'icône rouge sur la carte (il suffit de cliquer dessus pour copier-coller). Pour les lieux qui ne sont pas signalés, cliquer sur la carte à l'endroit souhaité.
-
-
-<a href="#top">&#11025;</a> <a name="enter_works">Saisie des œuvres</a>
------------------
-
-Les œuvres ne sont pas seulement les objets de la critique d'art et littéraires de Roud. Elles nous servent aussi à organiser l'information qui se trouve dans les notes de bas de page, parce que, à différence des publications par exemple, elles ont une notice.
-
-On lit par **exemple** dans le journal (section XIII du cahier « Mai 16-mars 17 », MS 4 A/1a) : « entre Prahins et Molondin je pensais à la (théorie) de Ramuz – et le thé dans la gourde après le char croisé. » Et dans la note de bas de page, après « Ramuz », on lit : « Roud pense probablement à *Raison d’être*, publié en mars 1914 dans le premier numéro des *Cahiers vaudois* (*Essais*, 1, *OC*, XV, p. 5). L’essai fut considéré dès sa parution comme le manifeste d’une nouvelle génération d’artistes romands. Ramuz y revendique l’invention d’une langue propre et d’un art ancré dans un territoire, bien que tendu vers une dimension universelle ». Dans ce cas, il faudra créer une œuvre littéraire, qui a pour auteur 'Ramuz', pour titre 'Raison d'être' et pour date 'mars 1914', avec la notice suivante : 'Publié en mars 1914 dans le premier numéro des *Cahiers vaudois*, l’essai fut considéré dès sa parution comme le manifeste d’une nouvelle génération d’artistes romands. Ramuz y revendique l’invention d’une langue propre et d’un art ancré dans un territoire, bien que tendu vers une dimension universelle'. Dans le texte du journal, on pourra après faire un lien vers cette œuvre (Elena s'occupe de cela dans l'encodage).
-
-
-<a href="#top">&#11025;</a> <a name="enter_photo">Saisie des photos</a>
-------------------
-
-Insérer seulement :
-- le label (voir [ci-dessus](#-label-étiquette)),
-- le fichier, 
-- la légende et 
-- la cote de la photo, où on indique aussi le copyright. Pour les photos de Roud à la BCUL, utilisons toujours "© Fonds photographique Gustave Roud/Subilia, BCUL, AAGR" (sans guillemets).
-
-Les autres champs ne sont pas utilisés.
-
-
-
-<a href="#top">&#11025;</a> <a name="problemes">Problèmes</a>
+<a href="#top">&#11025;</a> Problèmes
 ========
 
 Si on n’arrive pas à obtenir les résultats voulus ou que l’interface ne
@@ -684,7 +693,7 @@ n’hésitez pas à contacter Elena.
 
 
 
-<a href="#top">&#11025;</a> <a name="raccourci">Raccourcis clavier</a>
+<a href="#top">&#11025;</a> Raccourcis clavier
 ====================================
 
 Sur Mac, les raccourcis suivants peuvent être utiles.
