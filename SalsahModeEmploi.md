@@ -691,7 +691,7 @@ Avant de commencer la saisie, il faut avoir une image claire du réseau ; si né
 	- vers une partie d'un document, avec la propriété "est réécrit dans la partie du manuscrit" qui pointe vers la classe "partie d'un manuscrit" (label commence par "msPartie_"). Document d'archive et manuscrit sont utilisés comme synonymes ici.
 
 Tous les possibles liens génétiques sont représentés dans cette image :
-<img src="img/RoudGenetics.png">
+<img src="img/RoudGenetics.png" width="60%">
 
 
 
