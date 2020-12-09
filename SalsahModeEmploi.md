@@ -672,6 +672,28 @@ Pour les photos de Roud à la BCUL, consultables à l'adresse <http://roud.unil.
 Pour les images au CLSR, contacter Nam et choisir avec lui le bon copyright (informer Elena svp pour l'ajouter ici).
 
 
+<a href="#top">&#11025;</a> Saisie des réseaux génétiques
+------------------
+
+Avant de commencer la saisie, il faut avoir une image claire du réseau ; si nécessaire, se faire un petit dessin.
+
+#### Publications
+- Commencer par **créer le dossier génétique** de la publication : cliquer sur l'icône verte +, en haut à droite et, dans la fenêtre qui s'ouvre, choisir la classe "dossier génétique". Construire le label (voir <a href="#-label-étiquette">ci-dessus</a>) et insérer le lien vers la publication ou le manuscrit (la publication se cherche à travers les labels). Par ex., le dossier de la publication « Dédicace » parue dans *Schweizer Annalen* en '35 aura le label "dossier_Dédicace_Schweizer_Annalen_1935-11".
+	- Si la **publication a plusieurs parties** et chaque partie a un réseau génétique différente, après avoir créé le dossier génétique, créer les dossiers génétiques pour les parties (classe "Dossier génétique (partie)"). Pour les labels, voir toujours <a href="#-label-étiquette">ci-dessus</a>. Attention ! Créer seulement les sous-dossiers qui vont être utilisés dans le réseau génétique, pas la peine de les créer tous s'ils ne sont pas utilisés. Si les parties de la publication n'existent pas, il faudra d'abord les créer.
+- (si pertinent) Insérer le **lien entre le journal et le dossier génétique**. Trouver dans Salsah la partie du journal concerné (recherche dans les classes "document d'archive" ou "partie d'un manuscrit") et ajouter le lien (propriétés "est utilisée dans le dossier génétique" ou "est utilisée dans la partie du dossier génétique").
+- (si pertinent) Insérer les **avant-textes**. Chercher dans Salsah chaque avant-texte (classe "document d'archive") et ajouter le lien vers le dossier génétique ou sa partie (propriétés "est avant-texte dans le dossier génétique" ou "est avant-texte dans le dossier génétique (partie)").
+- (si pertinent) Insérer les **pre-publications**. Chercher dans Salsah chaque publication ou partie d'une publication, et ajouter le lien vers le dossier génétique ou sa partie (propriétés "est avant-texte dans le dossier génétique" ou "est avant-texte dans le dossier génétique (partie)").
+- (optionnel) Vérifier les liens établis. Dans Salsah, chercher à nouveau le dossier crée et cliquer sur la petite icône du **graphe** tout en haut de la fenêtre : un graphe doit s'afficher (on peut bouger les parties), dans lequel vérifier que le réseau soit complet.
+
+#### Niveaux de journal
+- Insérer le lien entre les documents de journal de différents niveaux. Trouver dans Salsah la partie du journal de niveau plus bas (recherche dans les classes "document d'archive") et ajouter le lien
+	- vers un document, avec la propriété "est réécrit dans le manuscrit" qui pointe vers la classe "document d'archive" (label commence par "fiche_")
+	- vers une partie d'un document, avec la propriété "est réécrit dans la partie du manuscrit" qui pointe vers la classe "partie d'un manuscrit" (label commence par "msPartie_"). Document d'archive et manuscrit sont utilisés comme synonymes ici.
+
+Tous les possibles liens génétiques sont représentés dans cette image :
+<img src="img/RoudGenetics.png">
+
+
 
 <a href="#top">&#11025;</a> Saisie des textes
 ------------------
@@ -682,7 +704,7 @@ Insérer
 - le label (voir <a href="#-label-étiquette">ci-dessus</a>) ;
 - le titre (comme il apparait dans l'édition papier) ;
 - l'ensemble éditorial ;
-- la publication ou le manuscrit qui ont servi de base pour l'établissement du texte (attention, cela se fait en utilisant le label de la publication ou du manuscrit en question ; pour savoir comment sont construits les labels, voir [ci-dessus](#-label-étiquette).
+- la publication ou le manuscrit qui ont servi de base pour l'établissement du texte (attention, cela se fait en utilisant le label de la publication ou du manuscrit en question ; pour savoir comment sont construits les labels, voir [ci-dessus](#-label-étiquette)).
 
 
 
