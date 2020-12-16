@@ -92,9 +92,11 @@ ex : aut\_Crisinel Edmond-Henri
 
 fiche\_*Fonds Cote*\_*Titre*
 
-ex : fiche\_CRLR GR MS 1 I/8c\_Canzone di Togliatti
+Attention! Il n'y a pas de slash dans la cote.
 
-ex : fiche\_CRLR GR MS 6 B1 /1a\_\[…wohl versteh ich die Frage…\]
+ex : fiche\_CRLR GR MS 1 I8c\_Canzone di Togliatt
+
+ex : fiche\_CRLR GR MS 6 B1a\_\[…wohl versteh ich die Frage…\]
 
 ex : fiche\_Bibliothèque Roud\_Note de lecture Cesare Pavese: "La Luna e i falò"
 
