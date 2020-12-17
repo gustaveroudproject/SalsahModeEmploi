@@ -16,7 +16,7 @@
 - [Liens et références bibliographiques dans le texte](#-liens)
 - [Distinction entre auteur et personne](#-distinction-entre-auteur-et-personne)
 - [Saisie des données](#-saisie-des-données)
-- [Problèmes](#-problèmes)
+- [Problèmes ou autres requêtes](#-problèmes)
 - [Raccourcis clavier](#-raccourcis-clavier)
 
 
@@ -113,12 +113,9 @@ ex : dossier\_L'Aveuglement\_Écriture\_1966
 
 ### Dossier génétique (partie)
 
-dossierPartie\_*label du dossier*\_*numéro progressif de la partie de la publication ou du manuscrit corréspondant*
+dossierPartie\_*titre de la partie*\_*titre de la publication*\_*date*\_*numéro progressif*
 
-ex : dossierPartie\_Adieu\_1927\_1
-
-ex : dossierPartie\_L'Aveuglement\_Écriture\_1966\_2
-
+ex : dossierPartie\_\[Cube de corps\]\_Adieu_1927_1
 
 
 <!--
@@ -702,6 +699,8 @@ Tous les possibles liens génétiques sont représentés dans cette image :
 
 Classe "texte établi".
 
+Le **texte** est l'unité textuelle dans l'édition papier, donc un recueil, un article, un document de journal, etc.
+
 Insérer
 - le label (voir <a href="#-label-étiquette">ci-dessus</a>) ;
 - le titre (comme il apparait dans l'édition papier) ;
@@ -710,7 +709,7 @@ Insérer
 
 
 
-<a href="#top">&#11025;</a> Problèmes
+<a href="#top">&#11025;</a> Problèmes ou autres requêtes
 ========
 
 Si on n’arrive pas à obtenir les résultats voulus ou que l’interface ne
