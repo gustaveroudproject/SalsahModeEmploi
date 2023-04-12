@@ -20,8 +20,8 @@
 - [Raccourcis clavier](#-raccourcis-clavier)
 
 
-
-
+**Ce document concerne l'interface Salsah, qui est désormais obsolete. Plusieurs instructions sont pertinents aussi pour la nouvelle interface, DSP-APP.
+**
 
 <a href="#top">&#11025;</a>Premiers pas et configurations générales
 ===================================================
@@ -257,17 +257,17 @@ poésie\_CRLR GR MS 2 F/4b
 
 ### Pour les textes
 
-= est égal, identique
+= est égal, identique (is equal to)
 
-≠ est différent, inégal
+≠ est différent, inégal (is not equal to)
 
-∈ inclut (un ou plusieurs signes)
+∈ inclut (un ou plusieurs signes) (is like)
 
-⊂ inclut (tous les signes)
+⊂ inclut (tous les signes) (matches)
 
-⊄ n’inclut pas
+⊄ n’inclut pas 
 
-∃ existe, est différent de vide ou de zéro
+∃ existe, est différent de vide ou de zéro (exists)
 
 ### Pour les dates
 
@@ -330,7 +330,7 @@ résultats.
 <a href="#top">&#11025;</a> Recherche avancée
 =================
 
-Ouvrir la fenêtre pour la recherche avancée avec l’icône loupe et plus.
+Ouvrir la fenêtre pour la recherche avancée.
 
 Sélectionner le vocabulaire à utiliser : ‘Œuvres complètes de Gustave
 Roud \[roud-oeuvres\]’.
@@ -344,10 +344,6 @@ Filtre et modes d’affichage : régler selon besoins.
 
 Tous les champs sont optionnels.
 
-Dans l’affichage des résultats, après le colonnes *info*, *type* et
-*label*, il y aura une colonne pour chaque propriété spécifiée dans la
-requête (si des propriétés ont été spécifiées).
-
 **Exemple 1 : toutes les personnes.**
 
 Après avoir sélectionné le vocabulaire, choisir le type de ressource :
@@ -358,10 +354,9 @@ Personne. Lancer la recherche, on obtiendra 91 résultats.
 Après avoir sélectionné le vocabulaire, choisir le type de ressource :
 Article de périodique.
 
-Dans le champ de propriété, choisir Périodique ; comme symbole, choisir
+Dans le champ de propriété, choisir Périodique ; comme [symbole](#-symboles-logiques-utilisés-dans-les-requêtes), choisir
 ‘**=**’ ; ici on ne peut pas écrire librement, mais sélectionner à
-partir d’une liste de périodiques identifiés par leurs *labels* (d’où
-l’importance du label). Le *label* d’un périodique commence toujours par
+partir d’une liste de périodiques identifiés par leurs [*labels*](#-label-étiquette). Le *label* d’un périodique commence toujours par
 ‘period\_’ donc il suffira d’écrire ça et la liste se déroule.
 Malheureusement, la liste n’est pas ordonnée, il faudra donc continuer à
 écrire pour voir moins d’options, par exemple ‘period\_La semaine de la
